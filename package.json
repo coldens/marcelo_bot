@@ -1,0 +1,22 @@
+{
+  "name": "marcelo",
+  "description": "Bot para hacer la tarea fastidiosa de deployar zegel virtual",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "format": "prettier --write \"src/**/*.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.4",
+    "prettier": "^2.0.5",
+    "slackbots": "^1.2.0"
+  }
+}
